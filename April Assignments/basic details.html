@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           #address{height: 50% ;
+            width: 50%;}
+        </style>
+        
+    </head>
+    <body>
+        <title>Basic Info</title>
+        <h2>Personal Details</h2>
+<form>
+    <div>
+        <p>  <label >First Name</label>
+        <input type="text" placeholder="Enter your first name buddy"></p>
+    </div>
+    <div>
+        <p> <label >Last Name</label>
+        <input type="text" placeholder="Enter your last name buddy"></p>
+    
+    </div>
+
+    <div>
+        <p>   <label >Email Id</label>
+        <input type="email" placeholder=" Enter your e-mail id"></p>
+    </div>
+
+    <div>
+        <p>  <label > Confirm Email Id</label>
+        <input type="email" placeholder="Re-enter your e-mail id"></p>
+    </div>
+    <div>
+        <p>  <label >Mobile Number</label>
+        <input type="number" placeholder=" Enter your personal mobile number"></p>
+    </div>
+    <label>Male</label>
+    <input type="radio" name="gender"/> 
+    <label>Female</label>
+    <input type="radio" name="gender"/> 
+    <label>Not to Specify</label>
+    <input type="radio" name="gender"/> 
+
+    <p>
+        <label>Select one Id proof</label>
+    <input  type="text" list="search" placeholder=" we need to verify it's you" />
+    <datalist id="search">
+        <option>Aadhar card</option>
+        <option>Pan Card</option>
+        <option>Driver's License</option></p>
+       
+    </datalist>
+    <p>
+<label>Select a file</label>
+<input type="file"></p>
+
+<p><label>Address</label>
+<input  id="address" type="text"  placeholder="Enter your current Address buddy so that we can send you a welcome gift"/>
+</p>
+<p><label>Select one Address proof</label>
+<input  type="text" list="search" placeholder="" />
+<datalist id="search">
+    <option>Aadhar card</option>
+    <option>Pan Card</option>
+    <option>Driver's License</option></p>
+   
+</datalist>
+<p>
+<label>Select a file</label>
+<input type="file"></p>
+
+<button>Submit</button>
+<button>Save and continue</button>
+
+
+    
+</form>
+
+    </body>
+</html>

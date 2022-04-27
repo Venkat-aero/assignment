@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Hotel menu</title>
+     <style>
+         
+         /* body{background-image: url( data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhAQEBAPEBUPDw8PEBAPDw8NEA8PFREWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGi0dHR0rLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLTctLSstLf/AABEIALcBEwMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUH/8QAMBAAAwACAAUDAgYBBAMAAAAAAAECAxESIUFRYQQxkROBUnGxwdHwoRQiQuEFgvH/xAAaAQADAQEBAQAAAAAAAAAAAAABAgMABAUG/8QAJBEAAgICAgICAgMAAAAAAAAAAAECEQMSITETQQRRInEUQmH/2gAMAwEAAhEDEQA/APUybLJo6DvB2WWVoACywSbMYIjK2QwKKYFBlMwKFNC6Q2mKpBHjEVQqx/CKyrSCLmk9XRjyUIY2iuEY+enywZkapLmBikBOgNFzIzgCmQMFEiRsouJGKQDKIKQcl6KAVToZsB7ClDFJjN2ZahgfRN/AU5NYriZoxlZGNsXkrS2/fogk5CbeuXXqXhgXjXPfc04pD0JFWx2OBnsTGg6Qp1JcCNlDuAgQUXIWicJaAfRMrRWg9FaNYgBWg2imYIJCyjGKbBYRTMYCgGhjAYRuwGZsxooXUmOf5ErWqMbguYNH0+5FATyckK5FzAyYGTAyYBZKhXAEsY3gGrGBsGolSE5G8BbkAaE0BobUgaChWMhDEBKDRhkEBYYFd2AzFV3f2MuTm9sfTb/YrgGRGSsHHBoiRcobLCUghkhi5ZexSwRASGAN0XovREA96ytF6LIjABcguRuiGMIaBY9yC4NZhDKGvGVwBCJZXCP4ERms1COApwOYOjCuKE1ItIdbBmTHmfIf5UXMjJkKJGKQNnPQCkdMEmRykAUhLkFyPaA4TAaM9SKaNVyIpcwonJFpBFSgnyCYFvuA1sZrZakxtRXCRyNclNBNqK0UMYuwjUMgtCosVl9Sl7AoazdxIo5v+s/uyB0YLR2CMpkQp7paIwUwjGImQplcRqNQTYLYLoCr8moag2wWxbyFcY2oyQzZAFROM2oaCZTQDzCqz7NqyeRqKLtjIQiWaMaA1R42S3KxsoZKBkakKxQpQeikExQg6B0MRWjGoRmXJmZ/savUexmXshkuCM1yXvsWgkU2NRqoogDYPGGjbIbsjYrjI2HUKZdMTdDGxOQKQRVUZ8jG5EZ7ookIwGyAkHoU7uP1W3/uNCyJnE+v2Kn1FLqK8Vn0KO85Km+5ix/+TWvIvJ61Ml45DxTZvvIl1M2T1CMN5m2HLH8aXZZYxt5X0L4mwNoFZAjajSKxLyAPIagUaasVVi3YuqNROU0g6yAxQsNMLRw5ZORqg046MuOjRiZJo5maZY1MRNBzQlE2kPVBuhCoLiFoWhsv3K4gJoTmz6RqA3SF+sy9BEXyMmTPxN/mMhnQoUjl3t2bFRexEjJBQ6YTQLgNIJSAZRsRwF8x+hdswyhQlibrQzJZmyUOkBuheTIZ7yeAsktme2l5ZVRRNtl/VZBXFXYsehC1n8lX6kzJJdSqaK6o+hUqNKy9/wDAyMujCsj7P4DV+H8AaH3Oks6DWU5nE+z+CK35E0QyzNHT+sU85z1kDViuIfObHmJ9QzpjELQjyNjlRHQCC0Ak3ZTop0y2A6ChaNGPIx0ZDJFPXsNi2BxEaNk5RsZjHOQZOQm4i6o3TlD4jCsg6bEcRHiH1ZzfV029rp0/dGykxdYgx4OfJivgwYp3+/8AJtxwHGE0ziQzkcyxUKmBkyNUF6EsqoAJFUw2C8TfTX58gDUJqxN5B9xK9634XMTd/hlLy+bGQrM7lvx5Ym6S6un49kNyS37vf6C3j6IohKMuXb66XZA48Hg1uBeV65fI23pDLH7YGkQS6ILZXxs4r9W+ml/6ov8A1Vfi/Q58y/ISTXt8Ho6RPXWrXBuWan/yfyX9SvxV8mOL+zHTX2ff+RXFCTXtGicr/FXyxs5X+Kvky6Cli6ojsbVmrux2PK/HwjFFD14JuKBsbJfhfoMnXb4Zlih8WScRlKxyS8/GwuDyv0BhjZJs1i+B9vjmBSNPIj/vUKbBZnkLi8/Ix4t/3Qt4P77htAdFrKu/wGsy8sR9Lx8E4PIaRvxNU5V5GzaMSh918oZO/HygOKGS+joRXn9h013Oen+Y/HkJuIXFM2JDYRmi/sPxZOnsybOeeM0fSfXS/Mp8K7siWy+AQjQDyPokv8i6lv3bNCgXkydEFP6NX2ZrjQv6Zp4O4nJfRDJi6ibnohVYx1VrkhNUHYZRF5DFmrW2ast8jlepyN/wFOikIbMQ6ZA1JBfIdWiOJkhgy2vc6LxGfLgR6ykcayOLsS9l43sKI1y38jYgLZ1Ry2rLjl5XVDeD46EiRkrXLoTZmkwIQ+C1IyYFbI9BQg+EqYHSibCmXjocmJcdUNh7RNoquf2FsjoBvXuTYEjIfASYuKDXP2BQaCRV40ytlgoShbw9gHK68vsx6JYbCuAcaf8Axe/uM3+Ja8oU51zQ7Hk/+P8AkzKbfYe2vK/yaMOXfnz1QmZT9uT7AXOuft/kThm4Z2cT7jW+pzcHq0p3XTny/YTWesr/AAz27/mS0dnHPh0bMnqeJ8Me3Wv4DmElzETlmFpc2IyZ2xW16Aosflzb5IU2L4gWwbD6EuhdMti7ZthlAR6hmGp5mrMzLRGeX0dmLHRTnyQosjuzo0RmmC6xGr6egljPe2PBs5eXAMxztG68JncaYynYIT0l/gHAFw7HKSOOqNsdsZCoQ+JK4NhJ65P5A+TSQ1eQkiJ7Dlk2KWkBS1zQwpijIvaa/vIW00C9rmvv5NEapf3kZr2Va2VrsCaJxC8kNfyDN9xUxYz9M0zl6Vy8hUZ2DOZz5XkerLqKka1RKAik/b/sjYtCOFEda/dBLT5oFsz5G5fEvuarCo3wdDHfR/ZjqyP8+zOfObiXJ8+3QmL1SfLWvzIzmoupcA0b4GvIl7/nrwHOdtcuS8dRFNN9/wBxstdjlyZ1dC/x32N4i0xa15GJkXlsdYWFspsmytg8gXjBtiqYVsXv3N5LYVj4M+QVwmjg2HOPX8nPPIdMY0Z16fyQ1qCE/wAiloRwl8A1YxkwfR7HzfCERIvN6c2zjLyYwbC0cfXDyfsE12Nmf05iac+fBROxoZHHhhKhr0xE5V+QbpdfkY7IZFJBfTa5phq/swEuzF3b7Jm7Dqh/1CKzIs6fuMVGcRkjT7gLcvaAizRPkm+Ci4DVqv46oTkwfBVT9uzGxl6P56Cyja4HcFLkyfVc8nzQSpP25jfUYU/bl+hgyY6l79vJzeSeN/kuCsYfRofL2YzH6jv8mReq6Vy8r2CbT5pnXjyxmh++GbeLquZTsxzbQavfNf4GcAOATly+Kfugq0/9y+6Bm/77BxPY4/k6uNSMrTLmh8UVMDpxHjSh9HVFcchSxi0CsYSgCUkF0HpdwXoJInCNz7EaXsTSB4O5oa+/kpRtgbYNUKmPsXoc5F5BowsnOQGyE0Qv40R3DUjFJEhiR6lnigKQqkgWjWEVUGXN6fZ0HIDkydAas4mb0hmrDS9jv1jEXgRVZBNa6OH9WkEvU90dHN6VMw16bT0x1NFI5Jx9iKpMqbaCv0T6AzjaK7qjox/IvtGrDlTNKevJh4R+PL0ZF0+jpUkzVxJgt69xbYLyf1iXRaDGTWvb/oJ2n7/yZ+PXt8dAayfYz1fZXhl5fTJ+xlrA17GnjJxkZfGj2uP0EzzT6hpP3Q7l2KUknknD+1/s1hY6b91+hrxQIxybMcnJlyuXZWEfY2JGzCBiR0rwQsdspILh78gtEUgbZOwfyXyW57h60U/ItGsBQX4X3ZHW/C/yxHqPUKVyKRx2K2+gs2RIycXVmeszZKvudUYULONIN5n0ICrKHo5bOvoJEIdJ5pQcohAswTBpEIAwtorRCBAKvGIz4dohDWERCEZUuZCDWBGPZfEQhrLRZc5egOSiEFmdmPoQ835lL1PgohByaOiIazfYbLIQRZJFKGSxsshAZJNx5BRqwmvGiEORlV0aJGIhAAYyZI32LIAQVkvQl1vm/wDohCkEg+jN6r1fD7e5zqyN+5CHVGKorFJIn7Elb9yEKITL0W2QhAnlNs//2Q== ); background-repeat: no-repeat ; height: fit-content;  } */
+body{background-color: black;}
+         #branch
+{ width: 40%;
+ float: left;
+background-color: rgb(14, 83, 83);
+color: whitesmoke;
+margin: 0;
+text-align: center;
+height: 70px;}
+
+#menu {width: 60%;
+float: right;
+background-color: black;
+color: aqua;
+margin: 0; text-align: center;
+line-height: 70px;
+}
+span{margin-right: 70px;}
+
+     </style>
+</head>
+<body>
+    <div id="header"></div>
+<div id="branch"><h2>Lucky Restaurant </h2></div>
+
+<div id="menu">
+    <span>Today's Special</span>
+    <span> Veg</span>
+    <span> Non- Veg</span>
+    <span>Dessert</span>
+</div>
+
+
+
+    <div id="main"></div>
+<h2 style="text-align: center; line-height: 3; color: whitesmoke; background-color:black ;">MENU</h2>
+
+<h3 style="text-align: center; color: lightseagreen;">Today's Special</h3>
+<h4 style="color: rgb(7, 213, 228); text-align: center;">
+    Where every ingredient tells a story
+</h4>
+<p style="color: whitesmoke; ">A place where food, design, and ambiance come together to create a memorable experience.The first bite will blow your mind. The second will transport you to another dimension.Inspired by the seasons, our tasting menus offer fresh, local ingredients in unique flavor combinations.</p>
+<div style="width: 800; border: 2px solid whitesmoke; text-align: center;">
+    <table>
+        <tr>
+            <td>
+        <table >
+            <h2 style="color: aqua; text-align: center; ">Bubbling Kulfi</h2>
+        <tr  style="text-align: center;">
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTNSwIOCWC-OOM64LoIeRg_wm8yawCJq43oQ&usqp=CAU"></td>
+        </tr>
+       
+        <td style="color: whitesmoke;">Distorted Kulfi made by pouring kulfi paste into liquid nitrogen along with different flavors that you can add, mix and experiment.</td>
+   
+    
+      
+    </td>
+    </tr>
+
+
+    </table>
+</div>
+               <h2 style="color: aqua; text-align: center;">                            Veg</h2>
+    <table>
+        <tr>
+            <td>
+        <div>
+           </div>
+            <tr>
+                <td><img src="https://www.acouplecooks.com/wp-content/uploads/2019/01/Loaded-Quinoa-Tacos-017-800x1000.jpg" width="300" height="300"/></td>
+                <td  style="color: whitesmoke;"></td>
+                <td></td>
+            </tr>
+        
+</table>
+
+</td>
+</tr>
+    </table>
+
+
+
+
+    <div id="footer"></div>
+</body>
+</html>
