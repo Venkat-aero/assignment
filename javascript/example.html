@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> var , Let and Const</title>
+</head>
+<body>
+    <div style="display: flex; padding:5px; ">
+    <!-- var with examples and output-->
+    <div style="border-right: 2px solid black; padding: 10px;">
+    <h1>VAR-example </h1>
+
+    <h2>INPUT</h2>
+
+  <h4 style="color: grey; font-weight: lighter; ">  <span style="color:red ;"> var</span> city; (DECLARING ) </br>
+    <span style="color:red ;"> var</span> city = (value);  {ASSIGNING}
+
+</h4>
+<h3 style="font-weight: bold; text-decoration:underline;">one input </h3>
+    <span style="color:red ;"> var</span> city = bangalore ; </br>
+    console.log(city);
+
+    <h2>OUTPUT</h2>
+    bangalore
+
+    <h3 style="font-weight: bold; text-decoration:underline;">two inputs </h3>
+    <span style="color:red ;"> var</span> city = bangalore ; </br>
+    <span style="color:red ;"> var</span> city = chennai ; </br>
+    console.log(city);
+
+    <h2>OUTPUT</h2>
+
+    chennai
+
+    <h2>DEFINITION</h2>
+    <ul>
+
+   <li> we can re-declare and re-assign values</li>
+
+ <li>In the above example you can see i am having two variables with same name and value , the problem in <span style="color:red ;"> var</span>  in it will take both into memory location eventhough it is having same values 
+</li>
+</ul>
+</div>
+<!--let examples with output-->
+<div style="margin-left:10px ;border-right: 2px solid black;padding: 10px;padding: 10px;">
+
+<h1>LET-example </h1>
+
+<h2>INPUT</h2>
+
+<h4 style="color: grey; font-weight: lighter; ">  <span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span> length; (DECLARING ) </br>
+<span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span> length = (value);  {ASSIGNING}
+
+</h4>
+<h3 style="font-weight: bold; text-decoration:underline;">one input </h3>
+<span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span> length = 10 ; </br>
+console.log(length);
+
+<h2>OUTPUT</h2>
+10
+
+
+<h3 style="font-weight: bold; text-decoration:underline;">two input with different values  </h3>
+<span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span> length = 10 ; </br>
+length = 20; <br>
+console.log(length);
+
+<h2>OUTPUT</h2>
+20
+
+<h3 style="font-weight: bold; text-decoration:underline;">two inputs with same let </h3>
+<span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span> length = 10 ; </br>
+<span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span> length = 20 ; </br>
+console.log(length);
+
+<h2>ERROR</h2>
+
+<span style="color: red;"> Uncaught SyntaxError: Identifier 'length' has already been declared</span>
+
+<h2>DEFINITION</h2>
+<ul>
+
+<li> we cannot re-declare but we can re-assign values</li>
+
+<li>In the above example you can see i am having two variables with same name and value , but <span style="color:rgb(10, 255, 10); font-weight: bold;"> let</span>  is showing error , this concept is mainly to avoid duplicate storage in memory location
+</li>
+</ul>
+</div>
+
+<!--const examples with output ans errors-->
+<div style="padding: 10px;">
+
+<h1>CONST-example </h1>
+
+<h2>INPUT</h2>
+
+<h4 style="color: grey; font-weight: lighter; ">  <span style="color:aqua; font-weight: bold;"> const</span> pie; (DECLARING ) </br>
+<span style="color:aqua; font-weight: bold;"> const</span> pie = (value);  {ASSIGNING}
+
+</h4>
+<h3 style="font-weight: bold; text-decoration:underline;">one input </h3>
+<span style="color:aqua; font-weight: bold;"> const</span> pie = 3.141 ; </br>
+console.log(pie);
+
+<h2>OUTPUT</h2>
+3.141
+
+
+<h3 style="font-weight: bold; text-decoration:underline;">two input with different values  </h3>
+<span style="color:aqua; font-weight: bold;"> const</span> pie= 3.141 ; </br>
+pie = 2.9; <br>
+console.log(pie);
+
+<h2>ERROR</h2>
+<span style="color: red;"> Uncaught TypeError: Assignment to constant variable.</span>
+
+<h3 style="font-weight: bold; text-decoration:underline;">two inputs with same let </h3>
+<span style="color:aqua; font-weight: bold;"> const</span> pie = 3.141 ; </br>
+<span style="color:aqua; font-weight: bold;"> const</span> pie = 20 ; </br>
+console.log(pie);
+
+<h2>ERROR</h2>
+
+<span style="color: red;"> Uncaught SyntaxError: Identifier 'pie' has already been declared</span>
+
+<h2>DEFINITION</h2>
+<ul>
+
+<li> we cannot re-declare and re-assign values</li>
+
+<li>In the above example you can see i am having two variables with same name and value , but <span style="color:aqua; font-weight: bold;"> const</span>  is showing error , this concept is mainly to avoid duplicate storage in memory location and to avoid errors in inputs.
+</li>
+</ul>
+</div>
+</div>
+
+</body>
+</html>

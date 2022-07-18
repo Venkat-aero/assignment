@@ -1,0 +1,81 @@
+
+
+.searchbar{
+    -ms-transform-origin-x: 20px;
+transition: height 250ms ease-in,opacity 250ms ease-in !important; 
+}
+.nav-item .nav-link{margin-left: 25px;
+color: black;}
+.img-content {border: 2px solid black;
+height: 690px;
+display: flex;
+flex-wrap: wrap;
+background-color: #e2e4e6;}
+.img-content ul {display: grid;
+    margin-left: 250px;
+   
+    
+    grid-gap:10px;
+    
+}
+.img-content .left
+{margin-left: 250px;
+display: grid;
+grid-gap:10px;
+margin-top: 5px;}
+.img-content  .center {margin-left: 30px;
+    display: grid;
+    grid-gap:10px;
+    margin-top: 5px;}
+.img-content  div{display: flex;
+flex-wrap: wrap;}
+.img-content ul li {list-style-type: none;}
+.img-content ul a {text-decoration: none;
+color: black;}
+/* .img-content .right {border: 2px solid black;
+width: 450px;
+height: 450px;
+margin: 8% ;
+margin-left: 50px;
+color: black;} */
+.img-content .right
+{margin-left: 100px;
+display: grid;
+grid-gap:10px;
+margin-top: 100px;}
+.carousel-inner {border: 2px solid black;
+height: 400px;
+}
+/* .active  {position: relative;
+    background-image:url(https://www.boeing.com/resources/boeingdotcom/nav/commercial/777x_inside_400x255.jpg);
+    width: 400px;
+    height: 400px;
+    margin: 0%;
+    margin-bottom: 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #0698d9;
+} */
+.active h4 { top: 60%;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    height: 100px;
+    position:  absolute;
+    margin-left: 60px;
+    
+}
+.active p{
+    text-align: center;
+    color: black;
+padding: 15px;
+font-weight: 400;
+margin-top: 70%;
+   }
+   .active h5 {border: 1px solid black;
+    width:150px;
+    height: 100px;
+margin-left: 250px;
+text-align: end;
+padding-bottom: 10px;}
+    

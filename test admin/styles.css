@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+
+:root {
+    --off-canvas-width: 270px;
+    --topNavbarHeight: 68px;
+  }
+  
+
+ .sidebar-nav {background-color: cyan;
+color: black;
+width: 250px;}
+
+.divider {width: 210px;}
+
+
+
+
+
+
+@media (min-width:992px){
+
+  body {overflow: auto !important;}
+
+
+  .sidebar-nav {
+    
+    transform: none;
+    visibility: visible !important;
+    top: var(--topNavbarHeight);
+    height: calc(100% - var(--topNavbarHeight));
+  }
+  .offcanvas-backdrop.show {display: none;}
+  main 
+  {margin-left: var(--off-canvas-width);
+
+
+    }
+    main {
+      margin-top:  var(--topNavbarHeight);
+      padding-top: 10px;
+    }
+    
+}

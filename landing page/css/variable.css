@@ -1,0 +1,11 @@
+:root {
+    --text-color:black;
+    --background-color:rgba(255, 255, 255, 0.6);
+    --orange-color:rgb(248, 122, 19 );
+    --secondary-color:rgb(80, 72, 72);
+    --normal-font:400;
+    --bold-font:600;
+    --bolder-font:800;
+    --white-color:#fff;
+    --black-color:#000;
+}

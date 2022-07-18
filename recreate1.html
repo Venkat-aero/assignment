@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cab Pickup</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>  
+                                        <!-- NAVBAR SECTION -->
+    <nav class="navbar fixed-top navbar-light bg-warning text-info">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fw-bolder" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning ms-auto">
+                <div class="container-fluid ">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                      <li class="nav-item ms-4">
+                        <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ms-4">
+                        <a class="nav-link active  text-light fw-bold" aria-current="page" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item ms-4">
+                        <a class="nav-link active  text-light fw-bold" aria-current="page" href="#">Tariff</a>
+                      </li>
+                      <li class="nav-item ms-4">
+                        <a class="nav-link active  text-light fw-bold" aria-current="page" href="#">Our  Contact</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+              
+        </div>
+       
+      </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      </div>
+      </nav>
+        <!-- MAIN SECTION -->
+<main  style="margin-top:100px ;">
+        <div class="container"  tabindex="-1">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="p-3 px-5 border border-warning  rounded-pill">
+                    
+<input class="form-control border-0 mb-4 fw-bold text-center " list="datalistOptions" id="exampleDataList" placeholder="Pickup Place">
+<datalist id="datalistOptions">
+  <option value="San Francisco">
+  <option value="New York">
+  <option value="Seattle">
+  <option value="Los Angeles">
+  <option value="Chicago">
+</datalist>
+<hr class="width-25">
+<input class="form-control  border-0 mb-3 fw-bold text-center" list="datalistOptions" id="exampleDataList" placeholder="Drop Place">
+<datalist id="datalistOptions">
+  <option value="San Francisco">
+  <option value="New York">
+  <option value="Seattle">
+  <option value="Los Angeles">
+  <option value="Chicago">
+</datalist>
+                </div>
+                <div class="col mt-4">
+                    <label class="mb-3 fw-bold text-secondary" >PICK UP DATE</label>
+                    <input type="date" class="form-control mb-3" placeholder="DATE" aria-label="Username" aria-describedby="basic-addon1">
+                    <label class="mb-3 fw-bold text-secondary" >PICK UP TIME</label>
+                    <input type="time" class="form-control mb-3" placeholder="PICKUP TIME" aria-label="Username" aria-describedby="basic-addon1">
+
+                </div>
+                <div class="col mb-3">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label fw-bold text-secondary me-5" for="flexRadioDefault1">
+                     ONE WAY
+                    </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label fw-bold text-secondary  " for="flexRadioDefault1">
+                      ROUND TRIP
+                    </label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card" style="width: 100%; height: 300px;" >
+                    <img src="https://media.istockphoto.com/vectors/flat-road-with-pinshighway-for-route-of-journey-on-isolated-asphalt-vector-id1214370279?k=20&m=1214370279&s=612x612&w=0&h=kE_lGXksdz6tTCaFV29pLcZNy7nYIZ8RhkOyZN_fsGg=" class="card-img-top" alt="...">
+                   
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+        </main>
+
+        <!-- image content -->
+
+        <div class="card mt-5 mb-3 w-100  border-0 "  style="height: 500px;">
+            <div class="row g-0">
+              <div class="col-md-4  mt-4  " style="height: 450px;">
+                <img src="data:image/png;base64,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" class="img-fluid rounded-start w-100 h-100" alt="..." >   </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Welcome To Onetrip Drop Taxi</h3>
+                  <p class="card-text fs-4 mt-2">
+                    Online cab booking facility available. Cab book easily and quickly . Book your cab any where and any time in South India. We provide sanitized Cabs and Luxuray Cabs. We assure you of safe journey with our cabs and experienced drivers.
+                   </p> 
+                   <p class="card-text fs-4">
+                    Onetrip Drop Taxi billing is transparent and reasonable. After confrim your booking our team will share vehicle and driver details with in few minutes.
+                </p> 
+                <p class="card-text fs-4">
+                    All the vehicles are checked regularly and maintained well. The drivers are well experienced, properly trained, neatly groomed and polite towards the customers.The cab you select will be at your doorstep for pick up and effectively drop you at the favored location</p>
+                    <p  class=" mt-4 text-center w-100">
+                    <button type="submit" class="btn btn-warning fw-bold text-dark">Book Cab</button>
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                                                
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
